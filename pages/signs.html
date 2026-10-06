@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Galería intrínseca — demo</title>
+		<link rel="stylesheet" href="../styles.css">
+	</head>
+    <body>
+
+        <a href="../index.html">
+            <h3>Volver</h3>
+        </a>
+        <h2>Signs:</h2>
+
+        <article class="card">
+            <div class="card-body">
+                <h3>Primeras Impresiones</h3>
+                <p>
+                    A primera vista, es una página completamente diferente al estilo tradicional, dado que su principal elemento es un renderizado 3D de una persona realizando las traducciones al lenguage ASL de la opción seleccionada por el ratón. La página también utiliza la cámara para poder interactuar con y detectar ASL.
+                </p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-body">
+                <h3>Interacción y estructura</h3>
+                <p>
+                    El menu es simple, la página presenta opciones en la parte inferior de la página que llevan al usuario por una serie de pasos en relación a lo que deseen hacer en la página. Una vez más adentro, el usuario se verá por camara y podrá comunicarse con la página por ASL. Durante este proceso, el renderizado 3D centrado en la página realizará signos pertenecietes a ASL, reflejando la opción seleccionada por el usuario. El menu es simple y facil de seguir, la estructura general de la página es arbórea.
+                </p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-body">
+                <h3>Colores y identidad visual</h3>
+                <p>
+                    La página principalmente utiliza colores azules y morados, con texto blanco. El fondo es un gradiente vertical de blanco a azul, y los elementos interactuables se animan con un gradiente de morado a rosa, rotando en dirección de reloj. Lo que destaca en esta página es el uso de un modelo 3D de una persona realizando los signos ASL correspondientes a la opción seleccionada. Este modelo es persistente, es decir, el modelo 3D mencionado acompaña al usuario durante toda la experiencia.
+                </p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-body">
+                <h3>Detalles técnicos</h3>
+                <p>
+                    Para empezar, la página depende significantemente de la cámara del usuario; no es posible interactuar con la página a partir de las primeras opciones sin conectar una cámara. Esto es entendible, ya que el funcionamiento principal de la página depende del usuario realizando signos ASL, los cuales la página es capaz de entender por uso de IA. El modelo 3D causa relativamente poca carga en el ordenador, mirando el código el principal método de animación es la pasada de datos de array mocap al objeto 3D, el cual ajusta su posición basándose en este array.
+                </p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-body">
+                <h3>Usabilidad y accesibilidad</h3>
+                <p>
+                    Como dicho antes, el menu es simple y fácil de utilizar. La necesidar de tener una cámara puede ser un obstaculo, pero dado la finalidad de esta página es entendible. Dado que un modelo de IA es utilizado para detectar los signos, la experiencia del usuario depende en cierta parte de la capacidad de esa IA. Al permitir que la comunidad entrene a la IA, el modelo presenta un nivel de funcionamiento satisfactorio.
+                </p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-body">
+                <h3>Conclusión</h3>
+                <p>
+                    Esta página es, ironicamente, simple en la parte del front end, lo que no diría que es un punto negativo. La gran parte de la complejitud es dejada en el back end, dejando al usuario de la página con una experiencia intuitiva y fácil de comprender. Tiene sentido, ya que si uno de sus objetivos principales es entrenar a la IA con datos de la comunidad, tiene que ser accesible. Es dificil decir algo que cambiaría, es bastante completa. Algo que se podría añadir es la capacidad de ver todas las señales sin tener que acceder para aprender, como un diccionario.
+                </p>
+            </div>
+        </article>
+    </body>
+</html>
